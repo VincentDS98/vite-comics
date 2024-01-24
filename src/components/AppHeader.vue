@@ -46,6 +46,7 @@ export default {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 30px;
 
 
     
@@ -56,7 +57,7 @@ export default {
     color: white;
     padding: 50px;
 
-     h2{
+    > h2{
          margin-left: 270px;
     }
    
@@ -78,7 +79,7 @@ export default {
     }
 
 li{
-                margin-right: 100px;
+                margin-right: 50px;
             
             }
 html{

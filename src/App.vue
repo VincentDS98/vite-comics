@@ -31,7 +31,5 @@ export default {
 </template>
 
 <style lang="scss">
-@use "assets/scss/main" as *;
-@import "assets/scss/partials/reset";
-@use "assets/scss/header" as *;
+
 </style>
