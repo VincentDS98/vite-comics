@@ -33,11 +33,7 @@ export default {
 
         </div>
 
-        <div class="header-bot">
-            <h2>
-            --> Content Goes Here <--
-            </h2>
-        </div>
+        
     </header>
 </template>
 
@@ -52,17 +48,7 @@ export default {
     
 }
 
-.header-bot{
-    background-color: black;
-    color: white;
-    padding: 50px;
 
-    > h2{
-         margin-left: 270px;
-    }
-   
-
-}
 
 #logo {
         margin-left: 300px;
@@ -76,12 +62,12 @@ export default {
         text-decoration: none;
         font-weight: bold;
             
-    }
+ }
 
 li{
-                margin-right: 50px;
+    margin-right: 50px;
             
-            }
+}
 html{
     font-family: Arial, Helvetica, sans-serif;
 }

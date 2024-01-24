@@ -1,12 +1,4 @@
-<script>
-import AppHeader from './components/AppHeader.vue';
-import AppMain from './components/AppMain.vue';
-import AppFooter from './components/AppFooter.vue';
-
-export default {
-    data() {
-        return {
-            fumetteria: [
+[
   {
       "thumb": "https://www.coverbrowser.com/image/action-comics/1-1.jpg",
       "price": "$19.99",
@@ -80,30 +72,3 @@ export default {
       "type": "graphic novel",
   },
 ]
-  },
-    components: {
-        AppHeader,
-        AppMain,
-        AppFooter
-    },  
-    methods: {
-
-    }
-        
-    }  
-}
-</script>
-
-<template>
-    
-
-    <AppHeader />
-
-    <AppMain />
-
-    <AppFooter />
-</template>
-
-<style lang="scss">
-
-</style>
